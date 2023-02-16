@@ -88,6 +88,7 @@ body {
     display: grid;
     gap: 10px 50px;
     width: 70%;
+    margin-top: 20px;
     margin-bottom: 20px;  
     display: none;
 }
@@ -143,8 +144,9 @@ body {
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
-    
 }
+    
+
 
 
 .container-three {
