@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,36 +9,64 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
 <body>
+
+    
 
     <div id="main-flexbox">
 
-        <div class="pitanje flex-box-one"> 
+        <div id="score-result">
+            <p id="score-text">Result :</p>
+            <h1 id="score">0</h1>
+        </div>
+
+        <div class="pitanje flex-box-one">
             <h1 class="napoleon-h1">Napoleons Quiz!</h1>
         </div>
 
-        <div class="question">
-            <p id="sub-question">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam deserunt magni quasi sed quas quae porro necessitatibus veniam cupiditate praesentium unde, 
-                nihil dolor eos nostrum reprehenderit nulla quo? Harum, illo facere. Officiis temporibus commodi cupiditate. Expedita voluptatem eligendi
-                 recusandae iste perspiciatis? Nihil nostrum incidunt tenetur fugiat iure consequuntur ipsa placeat. 
+        <div class="question-container">
+            <p id="question">
+                Something
             </p>
         </div>
         <div class="container">
 
-        <button class="container-two conti-one">1</button>
-        <button class="container-two conti-two">2</button>
-        <button class="container-three conti-three">3</button>
-        <button class="container-three conti-four">4</button>
-
+            <button class="container-two conti-one">
+                Data 1
+                <p class="choice" data-number="1">
+                    Choice 1
+                </p>
+            </button>
+            <button class="container-two conti-two">
+                Data 2
+                <p class="choice" data-number="2">
+                    Choice 2
+                </p>
+            </button>
+            <button class="container-three conti-three">
+                Data 3
+                <p class="choice" data-number="3">
+                    Choice 3
+                </p>
+            </button>
+            <button class="container-three conti-four">
+                Data 4
+                <p class="choice" data-number="4">
+                    Choice 4
+                </p>
+            </button>
         </div>
 
         <div class="submit">
-        <button class="pitanje two">Return</button>
-        <button class="pitanje two prosljedi">Submit</button>
+            <button class="pitanje two">Return</button>
+            <button class="pitanje two prosljedi">Submit</button>
         </div>
 
     </div>
-    
+
+    <script src="assets/javascript/script.js"></script>
+
 </body>
+
 </html>
