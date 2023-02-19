@@ -17,7 +17,7 @@
     <div id="main-flexbox">
 
         <div id="score-result">
-            <p id="qtn-text">Question :</p>
+            <p id="qtn-text">Score :</p>
             <h1 id="score">0</h1>
         </div>
 
@@ -32,32 +32,34 @@
         </div>
         <div class="container">
 
-            <button class="container-two conti-one value">
-                Data 1
-                
+            <button class="container-two conti-one option">
+                <label class="option"><input type="radio" name="option" value="1" /><span id="opt1">Data 1</span></label>
             </button>
-            <button class="container-two conti-two value">
-                Data 2
-                
-            </button>
-            <button class="container-three conti-three value">
-                Data 3
 
+            <button class="container-two conti-two option">
+                <label class="option"><input type="radio" name="option" value="2" /><span id="opt2">Data 2</span></label>
             </button>
-            <button class="container-three conti-four value">
-                Data 4
-                
+
+            <button class="container-three conti-three option">
+                <label class="option"><input type="radio" name="option" value="3" /><span id="opt3">Data 3</span></label>
             </button>
+
+            <button class="container-three conti-four option">
+                <label class="option"><input type="radio" name="option" value="4" /><span id="opt4">Data 4</span></label>
+            </button>
+
         </div>
 
         <div class="submit">
             <button class="pitanje two" id="start">Are you ready to start?</button>
-            <button class="pitanje two prosljedi" id="next">Next</button>
+            <button class="pitanje two prosljedi" id="next" onclick="loadNextQuestion()">Next</button>
         </div>
 
     </div>
 
-    <script src="assets/javascript/script.js"></script>
+    
+    <script src="/assets/javascript/script.js"></script>
+    
 
 </body>
 
