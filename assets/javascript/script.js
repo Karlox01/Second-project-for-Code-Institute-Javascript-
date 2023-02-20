@@ -89,7 +89,7 @@ function startGame() {
 
 
 /**
- * This functions controls the questions
+ * This functions controls the questions 
  */
 function loadQuestion (index) {
     var q = questions[index];  // This means var q will select index from questions array ,Index 0 is first set of questions and answers. //
@@ -104,10 +104,9 @@ function loadQuestion (index) {
 
 
 
-
-
-
-
+/**
+ * Function that incorporates question progression + what happens on the last question, And after all of the questions have been run.
+ */
 
 function loadNextQuestion() {
     var selectedOption = document.querySelector('input[type=radio]:checked');
