@@ -71,6 +71,7 @@ var resultCont = document.getElementById('score');
 
 
 
+
 /**
  * This function activates the css side of the game , Once clicked an array of questions appear.
  */
@@ -99,9 +100,6 @@ function loadQuestion (index) {
     opt3.textContent = q.option3;
     opt4.textContent = q.option4;
 }
-
-
-
 
 
 /**
@@ -156,6 +154,7 @@ function loadNextQuestion() {
         return;
     }
     loadQuestion(currentQuestion);
+
 }
 
 
