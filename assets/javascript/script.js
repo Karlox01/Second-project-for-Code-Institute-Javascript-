@@ -39,18 +39,18 @@ let questions = [
         "option4": 'Dungeons on the island of Elba',
         "answer": "2"
     }
-]
+];
 
 
 /*------------------------------------------------------- CSS RELATED GAME VARIABLES -------------------------------------------------------------*/
 const startButton = document.getElementById('start');
-startButton.addEventListener('click', startGame)
+startButton.addEventListener('click', startGame);
 const nextButton = document.getElementById('next');
 let submitFlex = document.querySelector('.submit');
 const questionContainer = document.querySelector('.question-container');
 const container = document.querySelector('.container');
 const displayScore = document.getElementById('score-result');
-const napoleonQuiz = document.querySelector('.napoleon-h1')
+const napoleonQuiz = document.querySelector('.napoleon-h1');
 
 
 /* -------------------------------------------------------Question Related ------------------------------------------------------------------*/
@@ -98,7 +98,7 @@ function loadQuestion (index) {
     opt2.textContent = q.option2;
     opt3.textContent = q.option3;
     opt4.textContent = q.option4;
-};
+}
 
 
 
@@ -135,18 +135,18 @@ function loadNextQuestion() {
         displayScore.style.visibility = 'initial';
         questionContainer.style.display = 'none';
         resultCont.style.display = '';
-        resultCont.textContent = score + ' /50';
-        advanceButton.textContent = 'Game Completed!'
+        resultCont.textContent = score + '/50';
+        advanceButton.textContent = 'Game Completed!';
         
         if(score == 50) {
             napoleonQuiz.innerHTML = 'You win!';
-            advanceButton.style.pointerEvents = 'none'
+            advanceButton.style.pointerEvents = 'none';
             document.body.style.backgroundImage = "url('assets/images/napo.webp')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundPosition = "center top";
         } else {
-            napoleonQuiz.innerHTML = ': ( Sorry better luck next time!'
-            advanceButton.style.pointerEvents = 'none'
+            napoleonQuiz.innerHTML = ': ( Sorry better luck next time!';
+            advanceButton.style.pointerEvents = 'none';
             document.body.style.backgroundImage = "url('assets/images/batttle.webp')";
             document.body.style.backgroundSize = "contain";
             document.body.style.backgroundPosition = "center center";

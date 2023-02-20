@@ -117,6 +117,11 @@ body {
     
 }
 
+.option {
+    text-align: center;
+    font-size: 40px;
+}
+
 .conti-one {
     grid-row-start: 1;
     grid-row-end: 2;
@@ -258,6 +263,11 @@ body {
         font-family: Julee;
         font-weight: 400;
         text-align: center;
+    }
+
+    .option {
+        text-align: center;
+        font-size: 25px;
     }
 
 
