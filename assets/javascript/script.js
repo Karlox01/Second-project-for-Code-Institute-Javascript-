@@ -71,7 +71,9 @@ var resultCont = document.getElementById('score');
 
 
 
-
+/**
+ * This function activates the css side of the game , Once clicked an array of questions appear.
+ */
 function startGame() {
     console.log('begin');
     startButton.style.display ='none'; // Start button dissapears after initializing the game
@@ -86,7 +88,9 @@ function startGame() {
 
 
 
-
+/**
+ * This functions controls the questions
+ */
 function loadQuestion (index) {
     var q = questions[index];  // This means var q will select index from questions array ,Index 0 is first set of questions and answers. //
     questionEl.textContent = (index + 1) + '. ' + q.question; // Tracks the index of the question , Example 1. Question 1 , 2. Question 2 , Etc.
@@ -96,6 +100,15 @@ function loadQuestion (index) {
     opt4.textContent = q.option4;
 };
 
+
+
+
+
+
+
+
+
+
 function loadNextQuestion() {
     var selectedOption = document.querySelector('input[type=radio]:checked');
     if(!selectedOption){
@@ -104,14 +117,14 @@ function loadNextQuestion() {
     }
 
 
-    var answer = selectedOption.value;
+    var answer = selectedOption.value; // Controls the score 
     if(questions[currentQuestion].answer == answer){
         score += 10;
     }
     
 
-    selectedOption.checked = false;
-    currentQuestion++;
+    selectedOption.checked = false; 
+    currentQuestion++; // 
 
     if(currentQuestion == totQuestions - 1){
         advanceButton.textContent = 'Finish'; 
