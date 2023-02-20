@@ -142,13 +142,13 @@ function loadNextQuestion() {
         if(score == 50) {
             napoleonQuiz.innerHTML = 'You win!';
             advanceButton.style.pointerEvents = 'none'
-            document.body.style.backgroundImage = "url('images/napo.webp')";
+            document.body.style.backgroundImage = "url('assets/images/napo.webp')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundPosition = "center top";
         } else {
             napoleonQuiz.innerHTML = ': ( Sorry better luck next time!'
             advanceButton.style.pointerEvents = 'none'
-            document.body.style.backgroundImage = "url('images/batttle.webp')";
+            document.body.style.backgroundImage = "url('assets/images/batttle.webp')";
             document.body.style.backgroundSize = "contain";
             document.body.style.backgroundPosition = "center center";
 
