@@ -221,7 +221,16 @@ body {
         width: 100%;
         height: 100vh;
         background: linear-gradient(90deg, #242424, rgba(24, 24, 24, 0.6));
-        overflow-y: auto;
+        overflow-y: hidden;
+    }
+
+    #main-flexbox {
+        display: flex;
+        flex-basis: 100%;
+        height: 1000px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     #score-result {
@@ -230,11 +239,11 @@ body {
 
     #qtn-text {
         margin-right: 10px;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     #score {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .flex-box-one {
@@ -245,7 +254,7 @@ body {
 
     .napoleon-h1 {
         color: #fff;
-        font-size: 40px;
+        font-size: 50px;
         font-family: Julee;
         font-weight: 400;
         text-align: center;
@@ -271,7 +280,7 @@ body {
     .submit {
         display: flex;
         flex-direction: row;
-        width: 50%;
+        width: 90%;
         justify-content: space-between;  
     }
 
