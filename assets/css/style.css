@@ -4,7 +4,7 @@ html {
     width: 100%;
     height: 100vh;
     background: linear-gradient(90deg, #242424, rgba(24, 24, 24, 0.6));
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 body {
@@ -314,15 +314,6 @@ label {
     }
 }
 
-@media screen and (min-width:800px) and (max-width:1200px) {
-    html {
-        width: 100%;
-        height: 100vh;
-        background: linear-gradient(90deg, #242424, rgba(24, 24, 24, 0.6));
-        overflow-y: auto;
-    }
-
-}
 
 
 
