@@ -8,7 +8,7 @@ Challenge your friends and family to see who truly knows more about the greatest
 
  - To visit website [Click here...](https://karlox01.github.io/Second-project-for-Code-Institute-Javascript-/?fbclid=IwAR0KHT-QdJYH7Svtd-GeRd2zZnE9AcNKI6JmqmtagIlY5kG8MXyLYllIuIQ)
 
-[![am i responsive](assets/images/AmIResponsive.JPG)](https://github.com/Karlox01/My-first-project-repo/blob/Main/images/readmephotos/am_i_responsive.JPG)
+[![am i responsive](assets/images/AmIResponsive.JPG)](https://github.com/Karlox01/Second-project-for-Code-Institute-Javascript-/blob/main/assets/images/AmIResponsive.JPG)
 
 
 ***
