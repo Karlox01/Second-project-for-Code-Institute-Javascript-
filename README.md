@@ -31,13 +31,13 @@ Challenge your friends and family to see who truly knows more about the greatest
 
 
 
-* __SCORE__
+__SCORE__
 
 * Your score is tracked at all times , However it is only displayed once all of the questions have been submitted, This is to keep the player engaged until the very end :).
 
 
 
-* __END GAME/RESULT PAGE__
+__END GAME/RESULT PAGE__
 
 *  Depending on the result received at the end game , A different page will be generated if you won/lost the game , Play and find out!
 
@@ -58,7 +58,7 @@ Challenge your friends and family to see who truly knows more about the greatest
  
 ## - Fonts
 
-
+![NapoFont](assets/images/NapoleonFont.JPG)
 
 __Julee__  [Font](https://fonts.google.com/specimen/Julee) 
 
