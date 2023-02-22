@@ -1,43 +1,43 @@
 let questions = [
     {
-        "question": 'When did Napoleon Bonaparte become the Emperor of France.?',
-        "option1": '1705',
-        "option2": '1804',
-        "option3": '1920',
-        "option4": '1815',
-        "answer": "2"
+        question: 'When did Napoleon Bonaparte become the Emperor of France.?',
+        option1: '1705',
+        option2: '1804',
+        option3: '1920',
+        option4: '1815',
+        answer: "2"
     },
     {
-        "question": 'What year did Napoleon Bonaparte invade Russia?',
-        "option1": '1709',
-        "option2": '1812',
-        "option3": '1922',
-        "option4": '1821',
-        "answer": "2"
+        question: 'What year did Napoleon Bonaparte invade Russia?',
+        option1: '1709',
+        option2: '1812',
+        option3: '1922',
+        option4: '1821',
+        answer: "2"
     },
     {
-        "question": 'Where was Napoleon exiled to, When he first abdicated the throne?',
-        "option1": 'Island of Elba',
-        "option2": 'Dutchy of Touissant',
-        "option3": 'Land of Rivia',
-        "option4": 'Saint Pierre',
-        "answer": "1"
+        question: 'Where was Napoleon exiled to, When he first abdicated the throne?',
+        option1: 'Island of Elba',
+        option2: 'Dutchy of Touissant',
+        option3: 'Land of Rivia',
+        option4: 'Saint Pierre',
+        answer: "1"
     },
     {
-        "question": 'Who led the army that defeated Napoleon Bonaparte , At the battle of Waterloo?',
-        "option1": 'Arthur Wellesley , The duke of Wellington',
-        "option2": 'Geralt of Rivia',
-        "option3": 'Kaiser Henry the 3rd.',
-        "option4": 'Jean Pierre De La Rouge',
-        "answer": "1"
+        question: 'Who led the army that defeated Napoleon Bonaparte , At the battle of Waterloo?',
+        option1: 'Arthur Wellesley , The duke of Wellington',
+        option2: 'Geralt of Rivia',
+        option3: 'Kaiser Henry the 3rd.',
+        option4: 'Jean Pierre De La Rouge',
+        answer: "1"
     },
     {
-        "question": 'Where is the final resting place of Napoleon Bonaparte?',
-        "option1": 'Island of Saint Helena',
-        "option2": 'Paris, France',
-        "option3": 'Moscow, Russia',
-        "option4": 'Dungeons on the island of Elba',
-        "answer": "2"
+        question: 'Where is the final resting place of Napoleon Bonaparte?',
+        option1: 'Island of Saint Helena',
+        option2: 'Paris, France',
+        option3: 'Moscow, Russia',
+        option4: 'Dungeons on the island of Elba',
+        answer: "2"
     }
 ];
 
@@ -76,7 +76,7 @@ var resultCont = document.getElementById('score');
  * This function activates the css side of the game , Once clicked an array of questions appear.
  */
 function startGame() {
-    console.log('begin');
+    console.log('The game has now been activated!');
     startButton.style.display ='none'; // Start button dissapears after initializing the game
     questionContainer.style.display ='initial'; // Makes Question Container appear
     container.style.display ='grid'; // Makes GRID Of answers appear
