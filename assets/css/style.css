@@ -28,6 +28,7 @@ body {
 
 
 
+
 /* ---------------------------------------Questions flexbox ----------------------------------------*/ 
 
 #main-flexbox {
@@ -222,6 +223,17 @@ label {
 
 .prosljedi {
     display: none;
+}
+
+#restart {
+    display: none;
+    font-family: Julee;
+    margin-left: 15px;
+    background-color: #DFFF00;
+    color: black;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 

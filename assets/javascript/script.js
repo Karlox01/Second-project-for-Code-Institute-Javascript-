@@ -66,6 +66,7 @@ var opt3 = document.getElementById('opt3');
 var opt4 = document.getElementById('opt4');
 var advanceButton = document.getElementById('next');
 var resultCont = document.getElementById('score');
+var restartGame = document.getElementById('restart');
 
 
 
@@ -135,7 +136,10 @@ function loadNextQuestion() {
         questionContainer.style.display = 'none';
         resultCont.style.display = '';
         resultCont.textContent = score + '/50';
-        advanceButton.textContent = 'Game Completed!';
+        advanceButton.textContent = 'Thanks for playing!';
+        restartGame.style.display = 'initial';
+
+        
         
         if(score == 50) {
             napoleonQuiz.innerHTML = 'You win!';
